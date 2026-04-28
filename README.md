@@ -44,6 +44,12 @@ cancer-diagnosis-ml/
 
 **Best model: Logistic Regression** with recall at 0.9762, AUC 0.995 on test set.
 
+### Confusion Matrix
+![Confusion Matrix](results/confusion_matrix.png)
+
+### ROC Curve
+![ROC Curve](results/roc_curve.png)
+
 ## Key Findings
 - Worst-value features dominate. Extreme cell measurements are more diagnostically useful than averages
 - Strongest indicators of malignancy: worst concave points, worst perimeter and worst radius.
